@@ -15,7 +15,11 @@ public class Puzzle {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Board start, end;
+
+        
+        start = new Board("**dd*daa*bddbbc_");
+        start.Show();
     }
     
 }
